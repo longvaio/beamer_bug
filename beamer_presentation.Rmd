@@ -1,0 +1,20 @@
+---
+title: "beamer_presentation"
+author: "john"
+date: "July 17, 2017"
+output: beamer_presentation
+resource_files:
+  sample.jpg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Include Images
+
+**Renders:** \newline
+
+\begin{figure}
+  \includegraphics{sample.jpg}
+\end{figure}
